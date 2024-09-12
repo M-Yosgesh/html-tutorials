@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> facebook friends demo</title>
+    <style>
+      .grid{
+        display: grid;
+        grid-template-columns: 250px 1fr 1fr;
+      }
+      .final-layout{
+        display: inline-block;
+        width: 250px;
+        margin-left: 15px;
+      }
+      .pic{
+        width: 100%;
+      }
+      .mine{
+        width: 40px;
+        border-radius: 25px;
+        vertical-align: -13px;
+      }
+      .profile{
+        display: inline-block;
+      }
+      .mutual{
+        display: inline-block;
+      }
+      .stats{
+        margin-top: -7px;
+        border: solid;
+        border-color:rgb(214, 214, 214);
+        padding-bottom: 12px;
+        padding-left: 9px;
+        border-radius: 3px;
+        background-color: #ffffff;
+      }
+      button{
+      background-color: rgb(10,102,194);
+        color:white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.25s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+      button:hover{
+        background-color: rgb(10, 28, 194)  ;
+      }
+      .name{
+        font-size: 18px;
+        font-family: Arial;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .friends{
+        font-size: 18px;
+        font-family: Arial;
+        color: gray;
+        margin-left: 5px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .info{
+        margin-bottom: 18px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="final-layout">
+        <div>    <img class="pic" src="cat.jpeg">  </div>
+  
+        <div class="stats">
+          <p class="name" >Oliver</p>
+  
+          <div class="info">
+            <div class="profile">
+              <img class="mine" src="bulldog.jpeg"> 
+            </div>
+      
+            <div class="mutual">
+              <p class="friends">
+                2 mutual friends
+              </p>
+            </div>
+          </div>
+  
+    
+          <div>
+            <button>
+              Add a Friend
+            </button>
+          </div>
+    
+        </div>
+      </div>
+  
+      <div class="final-layout">
+        <div>    <img class="pic" src="sleepy.jpeg">  </div>
+  
+        <div class="stats">
+          <p class="name" >Mimi</p>
+  
+          <div class="info">
+            <div class="profile">
+              <img class="mine" src="bulldog.jpeg"> 
+            </div>
+      
+            <div class="mutual">
+              <p class="friends">
+                3 mutual friends
+              </p>
+            </div>
+          </div>
+  
+    
+          <div>
+            <button>
+              Add a Friend
+            </button>
+          </div>
+    
+        </div>
+      </div>
+      <div class="final-layout">
+        <div>    <img class="pic" src="bulldog.jpeg">  </div>
+  
+        <div class="stats">
+          <p class="name" >The Happy bulldog</p>
+  
+          <div class="info">
+            <div class="profile">
+              <img class="mine" src="bulldog.jpeg"> 
+            </div>
+      
+            <div class="mutual">
+              <p class="friends">
+                4 mutual friends
+              </p>
+            </div>
+          </div>
+  
+    
+          <div>
+            <button>
+              Add a Friend
+            </button>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

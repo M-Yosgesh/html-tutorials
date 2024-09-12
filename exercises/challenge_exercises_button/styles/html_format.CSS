@@ -1,0 +1,16 @@
+p{
+  width: 315px;
+  font-family: montserrat;
+}
+.head{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.description{
+  font-size: 18px;
+  width: 320px;
+  }
+.underline{
+  text-decoration: underline;
+}

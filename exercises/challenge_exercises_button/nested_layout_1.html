@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> nested layout </title>
+    <style>
+      .layout{
+        display: block;
+      }
+      p{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-size: 20px;
+        font-family: Arial;
+      }
+      .logo{
+        display: inline-block;
+        margin-right: 15px;
+      }
+      .profile{
+        display: inline-block;
+        width: 200px;
+        margin-right: 80px;
+        margin-bottom: 35px;
+      }
+      .butto{
+        display: inline-block;
+      }
+      .tlogo{
+        width: 80px;
+        border-radius: 45px;
+        vertical-align: -10px;
+      }
+      .name{
+        font-weight: bold;
+        margin-top: 2px;
+        margin-bottom: 4px;
+      }
+      .type{
+        color: gray;
+        font-size: 19px;
+        margin-bottom: 4px;
+      }
+      .famous{
+        color: gray;
+        font-size: 19px;
+      }
+      button{
+        vertical-align: 27px;
+      background-color: rgb(10,102,194);
+        color:white;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.25s;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+      }
+      button:hover{
+        background-color: rgb(10, 28, 194)  ;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <div class="logo">
+        <img class="tlogo" src="cat.jpeg">
+      </div>
+  
+      <div class="profile">
+        <p class="name"> oliver</p>
+        <p class="type">The cat</p>
+        <p class="famous"> popular</p>
+      </div>
+      <div class="butto"> <button> Follow </button> </div>
+    </div>
+   
+    <div class="layout">
+      <div class="logo">
+        <img class="tlogo" src="sleepy.jpeg">
+      </div>
+  
+      <div class="profile">
+        <p class="name"> Mimi</p>
+        <p class="type">Sleepy cat</p>
+        <p class="famous"> popular</p>
+      </div>
+      <div class="butto"> <button> Follow </button> </div>
+    </div>
+    <div class="layout">
+      <div class="logo">
+        <img class="tlogo" src="bulldog.jpeg">
+      </div>
+  
+      <div class="profile">
+        <p class="name"> Rex</p>
+        <p class="type"> Happy Bulldog </p>
+        <p class="famous"> popular</p>
+      </div>
+      <div class="butto"> <button> Follow </button> </div>
+    </div>
+    
+  </body>
+
+</html>
